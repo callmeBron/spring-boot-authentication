@@ -1,8 +1,8 @@
-package com.secure_service.example.secure_service.controller;
+package basicAuthentication.controller;
 
 
-import com.secure_service.example.secure_service.model.UserObjectModel;
-import com.secure_service.example.secure_service.service.UserService;
+import basicAuthentication.model.UserObjectModel;
+import basicAuthentication.service.UserService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/v1/users")
+@RequestMapping("/api/v1/paymentsPortal/users")
 public class basicAuthenticationController {
     private final UserService userService;
 
@@ -21,7 +21,7 @@ public class basicAuthenticationController {
     }
 
     @GetMapping
-    public ResponseEntity<List<UserObjectModel>> greetUser() {
+    public ResponseEntity<List<UserObjectModel>> fetchUsers() {
         return ResponseEntity.ok(userService.getUsers());
     }
 }

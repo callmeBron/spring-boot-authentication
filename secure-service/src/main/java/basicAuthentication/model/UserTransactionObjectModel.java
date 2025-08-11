@@ -1,4 +1,4 @@
-package com.secure_service.example.secure_service.model;
+package basicAuthentication.model;
 
 import lombok.Getter;
 import lombok.Setter;

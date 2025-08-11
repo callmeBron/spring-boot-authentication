@@ -1,6 +1,6 @@
-package com.secure_service.example.secure_service.service;
+package basicAuthentication.service;
 
-import com.secure_service.example.secure_service.model.UserObjectModel;
+import basicAuthentication.model.UserObjectModel;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -13,6 +13,11 @@ public class UserService {
                         "Jack",
                         "jack.handle@gmail.com",
                         "Discovery bank"
+                ),
+                new UserObjectModel(
+                        "MindieShaka",
+                        "shakaMindies09@gmail.com",
+                        "First National Bank"
                 )
         );
         return users;
