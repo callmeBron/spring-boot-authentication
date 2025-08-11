@@ -21,7 +21,7 @@ _To be covered in this repo:_
 
 - **Basic Authentication**:
 >Run the application 'BasicAuthentication', in the console you'll receive a generated password ('as this is just for example/practice purposes this is totally fine').
-Use this to login on the login page at the endpoint 'http://localhost:8080/api/v1/users' the username will be the default 'user' name.
+Use this to login on the login page at the endpoint 'http://localhost:8080/api/v1/paymentsPortal/users' the username will be the default 'user' name.
 >
 **example**
 >
